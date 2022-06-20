@@ -13,8 +13,6 @@ public class sieveOfEratosthenes {
         BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(input.readLine());
 
-        sieve(n);
-
         System.out.println("The prime numbers up to number " + n + " are: " + sieve(n));
     }
 
